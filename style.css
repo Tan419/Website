@@ -68,9 +68,11 @@ h1 {
 .nology {
     text-align: center;
     border: 25px solid palevioletred;
+    border-radius: 100px;
     color:#01015c;
     margin: 40px 300px 20px 400px;
     padding: 10px 50px 10px 50px;
+    border-style: inset;
 }
 
 .ul {
