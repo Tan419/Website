@@ -1,7 +1,3 @@
-/* *  {background-color:rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 10%, rgba(0,212,255,1) 80%); 
-} */
-
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     /* background-color: rgb(232, 232, 241); 
@@ -12,7 +8,6 @@ body {
     background-position: center center;
     background-attachment: fixed;
 }
-
 
 
 header {
@@ -71,7 +66,7 @@ h1 {
     border: 25px solid palevioletred;
     border-style: outset;
     border-radius: 130px;
-    margin: 50px 250px;
+    margin: 50px 250px 0px 250px;
     padding: 10px 40px; 
 }
 
@@ -83,13 +78,47 @@ h1 {
     list-style: none;
 }
 
+.portfolio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* #portimg {
+    width: 10px;
+    height: 10px;
+    margin: 0;
+}
+ */
 
 #contacts h2 {
-    color: #01015c;
+    color: rgb(207, 54, 79);
     text-align: center;
     text-decoration: underline;
-    font-size: 20pt;
+    font-size: 25pt;
 }
+
+#logos {
+    display: flex;
+    justify-content: center;
+} 
+
+#logos div {
+    display: flex;
+    height: 43px;
+    width: 93px;
+    margin-bottom: 20px;
+}
+#logos img {
+    width: 90%;
+    height: 100%;
+} 
+
+/*.portfolio {
+    text-align: center;
+} */
 
 /* #logos img {
     width: 50px;
@@ -106,23 +135,6 @@ h1 {
     display: inline-block;
 }*/
 
-
-#logos {
-    display: flex;
-    justify-content: center;
-} 
-
-#logos div {
-    display: flex;
-    height: 40px;
-    width: 90px;
-    margin-bottom: 20px;
-}
-#logos img {
-    width: 90%;
-    height: 100%;
-} 
-
-/*.portfolio {
-    text-align: center;
+/* *  {background-color:rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 10%, rgba(0,212,255,1) 80%); 
 } */
