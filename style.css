@@ -70,13 +70,13 @@ h1 {
 }
 
 #text {
-    /* padding: 45px; */
     font-size: 15pt;
     color:#01015c;
     line-height: 25pt;
     text-align: justify;
-    /* margin: 5% 10%; */
     padding: 5% 10% 2% 2%;
+    /* padding: 45px; */
+    /* margin: 5% 10%; */
 }
 
 #nology {
